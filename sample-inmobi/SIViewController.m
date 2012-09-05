@@ -8,6 +8,8 @@
 
 #import "SIViewController.h"
 
+#import <CoreLocation/CoreLocation.h>
+
 @interface SIViewController ()
 
 @end
@@ -27,6 +29,7 @@
     
     IMAdRequest *request = [IMAdRequest request];
     request.testMode = YES;
+    request.location = [[CLLocation alloc] initWithLatitude:35.632507 longitude:139.88127];
     self.adView.imAdRequest = request;
 
     // Logic View

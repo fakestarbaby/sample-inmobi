@@ -21,6 +21,7 @@
 		A9CD27FE15F704E300ECC890 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD27F615F704C200ECC890 /* MediaPlayer.framework */; };
 		A9CD27FF15F704E300ECC890 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD27F415F704BC00ECC890 /* AVFoundation.framework */; };
 		A9CD280015F704E300ECC890 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD27F215F704B000ECC890 /* SystemConfiguration.framework */; };
+		A9CD280815F70E0D00ECC890 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD280515F70E0300ECC890 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		A9CD27F615F704C200ECC890 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		A9CD27F815F704CA00ECC890 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A9CD27FA15F704CF00ECC890 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A9CD280515F70E0300ECC890 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9CD280815F70E0D00ECC890 /* CoreLocation.framework in Frameworks */,
 				A9CD27FC15F704E300ECC890 /* MessageUI.framework in Frameworks */,
 				A9CD27FD15F704E300ECC890 /* Security.framework in Frameworks */,
 				A9CD27FE15F704E300ECC890 /* MediaPlayer.framework in Frameworks */,
@@ -92,6 +95,7 @@
 		A9CD27C715F7027D00ECC890 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9CD280515F70E0300ECC890 /* CoreLocation.framework */,
 				A9CD27FA15F704CF00ECC890 /* MessageUI.framework */,
 				A9CD27F815F704CA00ECC890 /* Security.framework */,
 				A9CD27F615F704C200ECC890 /* MediaPlayer.framework */,
@@ -361,6 +365,7 @@
 				A9CD27E415F7027E00ECC890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
