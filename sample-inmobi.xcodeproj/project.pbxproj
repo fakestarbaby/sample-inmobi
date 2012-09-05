@@ -15,6 +15,12 @@
 		A9CD27D915F7027E00ECC890 /* SIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CD27D815F7027D00ECC890 /* SIAppDelegate.m */; };
 		A9CD27DC15F7027E00ECC890 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CD27DA15F7027E00ECC890 /* MainStoryboard.storyboard */; };
 		A9CD27DF15F7027E00ECC890 /* SIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CD27DE15F7027E00ECC890 /* SIViewController.m */; };
+		A9CD27F115F703B700ECC890 /* libInMobi_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD27F015F703B700ECC890 /* libInMobi_iOS.a */; };
+		A9CD27FC15F704E300ECC890 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD27FA15F704CF00ECC890 /* MessageUI.framework */; };
+		A9CD27FD15F704E300ECC890 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD27F815F704CA00ECC890 /* Security.framework */; };
+		A9CD27FE15F704E300ECC890 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD27F615F704C200ECC890 /* MediaPlayer.framework */; };
+		A9CD27FF15F704E300ECC890 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD27F415F704BC00ECC890 /* AVFoundation.framework */; };
+		A9CD280015F704E300ECC890 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CD27F215F704B000ECC890 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,19 @@
 		A9CD27DB15F7027E00ECC890 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A9CD27DD15F7027E00ECC890 /* SIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIViewController.h; sourceTree = "<group>"; };
 		A9CD27DE15F7027E00ECC890 /* SIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIViewController.m; sourceTree = "<group>"; };
+		A9CD27E915F703B700ECC890 /* IMAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAdDelegate.h; sourceTree = "<group>"; };
+		A9CD27EA15F703B700ECC890 /* IMAdError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAdError.h; sourceTree = "<group>"; };
+		A9CD27EB15F703B700ECC890 /* IMAdInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAdInterstitial.h; sourceTree = "<group>"; };
+		A9CD27EC15F703B700ECC890 /* IMAdInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAdInterstitialDelegate.h; sourceTree = "<group>"; };
+		A9CD27ED15F703B700ECC890 /* IMAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAdRequest.h; sourceTree = "<group>"; };
+		A9CD27EE15F703B700ECC890 /* IMAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAdView.h; sourceTree = "<group>"; };
+		A9CD27EF15F703B700ECC890 /* IMSDKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMSDKUtil.h; sourceTree = "<group>"; };
+		A9CD27F015F703B700ECC890 /* libInMobi_iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libInMobi_iOS.a; sourceTree = "<group>"; };
+		A9CD27F215F704B000ECC890 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A9CD27F415F704BC00ECC890 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A9CD27F615F704C200ECC890 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A9CD27F815F704CA00ECC890 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A9CD27FA15F704CF00ECC890 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +57,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9CD27FC15F704E300ECC890 /* MessageUI.framework in Frameworks */,
+				A9CD27FD15F704E300ECC890 /* Security.framework in Frameworks */,
+				A9CD27FE15F704E300ECC890 /* MediaPlayer.framework in Frameworks */,
+				A9CD27FF15F704E300ECC890 /* AVFoundation.framework in Frameworks */,
+				A9CD280015F704E300ECC890 /* SystemConfiguration.framework in Frameworks */,
 				A9CD27C915F7027D00ECC890 /* UIKit.framework in Frameworks */,
 				A9CD27CB15F7027D00ECC890 /* Foundation.framework in Frameworks */,
 				A9CD27CD15F7027D00ECC890 /* CoreGraphics.framework in Frameworks */,
+				A9CD27F115F703B700ECC890 /* libInMobi_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +92,11 @@
 		A9CD27C715F7027D00ECC890 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9CD27FA15F704CF00ECC890 /* MessageUI.framework */,
+				A9CD27F815F704CA00ECC890 /* Security.framework */,
+				A9CD27F615F704C200ECC890 /* MediaPlayer.framework */,
+				A9CD27F415F704BC00ECC890 /* AVFoundation.framework */,
+				A9CD27F215F704B000ECC890 /* SystemConfiguration.framework */,
 				A9CD27C815F7027D00ECC890 /* UIKit.framework */,
 				A9CD27CA15F7027D00ECC890 /* Foundation.framework */,
 				A9CD27CC15F7027D00ECC890 /* CoreGraphics.framework */,
@@ -77,11 +107,10 @@
 		A9CD27CE15F7027D00ECC890 /* sample-inmobi */ = {
 			isa = PBXGroup;
 			children = (
-				A9CD27D715F7027D00ECC890 /* SIAppDelegate.h */,
-				A9CD27D815F7027D00ECC890 /* SIAppDelegate.m */,
 				A9CD27DA15F7027E00ECC890 /* MainStoryboard.storyboard */,
-				A9CD27DD15F7027E00ECC890 /* SIViewController.h */,
-				A9CD27DE15F7027E00ECC890 /* SIViewController.m */,
+				A9CD27E515F702CD00ECC890 /* AppDelegate */,
+				A9CD27E615F702D900ECC890 /* Controllers */,
+				A9CD27E715F7033400ECC890 /* Vendors */,
 				A9CD27CF15F7027D00ECC890 /* Supporting Files */,
 			);
 			path = "sample-inmobi";
@@ -96,6 +125,47 @@
 				A9CD27D615F7027D00ECC890 /* sample-inmobi-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9CD27E515F702CD00ECC890 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD27D715F7027D00ECC890 /* SIAppDelegate.h */,
+				A9CD27D815F7027D00ECC890 /* SIAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A9CD27E615F702D900ECC890 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD27DD15F7027E00ECC890 /* SIViewController.h */,
+				A9CD27DE15F7027E00ECC890 /* SIViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A9CD27E715F7033400ECC890 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD27E815F703B700ECC890 /* InMobi iOS SDK Bundle */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		A9CD27E815F703B700ECC890 /* InMobi iOS SDK Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				A9CD27E915F703B700ECC890 /* IMAdDelegate.h */,
+				A9CD27EA15F703B700ECC890 /* IMAdError.h */,
+				A9CD27EB15F703B700ECC890 /* IMAdInterstitial.h */,
+				A9CD27EC15F703B700ECC890 /* IMAdInterstitialDelegate.h */,
+				A9CD27ED15F703B700ECC890 /* IMAdRequest.h */,
+				A9CD27EE15F703B700ECC890 /* IMAdView.h */,
+				A9CD27EF15F703B700ECC890 /* IMSDKUtil.h */,
+				A9CD27F015F703B700ECC890 /* libInMobi_iOS.a */,
+			);
+			path = "InMobi iOS SDK Bundle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +313,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sample-inmobi/sample-inmobi-Prefix.pch";
 				INFOPLIST_FILE = "sample-inmobi/sample-inmobi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/sample-inmobi/InMobi iOS SDK Bundle\"",
+				);
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +333,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sample-inmobi/sample-inmobi-Prefix.pch";
 				INFOPLIST_FILE = "sample-inmobi/sample-inmobi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/sample-inmobi/InMobi iOS SDK Bundle\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
